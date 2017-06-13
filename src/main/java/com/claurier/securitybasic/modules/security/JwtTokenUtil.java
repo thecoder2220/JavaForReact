@@ -1,4 +1,4 @@
-package securitybasic.modules.security;
+package com.claurier.securitybasic.modules.security;
 
 /**
  * Created by CARL on 09/06/2017.
@@ -11,8 +11,8 @@ import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.JwtParser;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import securitybasic.modules.security.service.JwtProperties;
-import user.modules.user.IJwtUser;
+import com.claurier.securitybasic.modules.security.service.JwtProperties;
+import com.claurier.user.modules.user.IJwtUser;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
@@ -38,6 +38,7 @@ public class JwtTokenUtil
     private static final String AUDIENCE_MOBILE = "mobile";
     private static final String AUDIENCE_TABLET = "tablet";
     private static final String HEADER_REMEMBER_ME = "longTerm";
+
     @Autowired
     private JwtProperties properties;
 

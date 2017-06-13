@@ -1,10 +1,13 @@
-package securitybasic.modules.security.service;
+package com.claurier.securitybasic.modules.security.service;
 
 /**
  * Created by CARL on 09/06/2017.
  */
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import org.springframework.stereotype.Component;
+
+@Component
 @ConfigurationProperties(prefix="jwt")
 public class JwtProperties {
     private String header;

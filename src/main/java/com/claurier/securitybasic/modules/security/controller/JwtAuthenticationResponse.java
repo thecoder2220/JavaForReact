@@ -1,4 +1,4 @@
-package securitybasic.modules.security.controller;
+package com.claurier.securitybasic.modules.security.controller;
 
 /**
  * Created by CARL on 09/06/2017.

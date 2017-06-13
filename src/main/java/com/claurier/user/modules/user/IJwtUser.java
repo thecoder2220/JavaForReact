@@ -1,4 +1,4 @@
-package user.modules.user;
+package com.claurier.user.modules.user;
 
 import java.util.Locale;
 import org.springframework.security.core.userdetails.UserDetails;

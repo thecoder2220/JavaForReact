@@ -1,4 +1,4 @@
-package securitybasic.modules.security.controller;
+package com.claurier.securitybasic.modules.security.controller;
 
 import java.io.Serializable;
 
